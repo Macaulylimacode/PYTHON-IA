@@ -55,10 +55,10 @@ https://www.kaggle.com/
 
 ```bash
 # clonar repositório
-git clone github.com/Macaulylimacode/PYTHON-INSIGHTS1/blob/master/PYTHON%20INSIGHTS.py
+git clone https://github.com/Macaulylimacode/PYTHON-IA/blob/master/Python%20IA.py
 
 # entrar na pasta do projeto
-cd PYTHON-INSIGHTS1
+cd PYTHON-IA
 
 # executar o projeto
 ./mvnw spring-boot:run
