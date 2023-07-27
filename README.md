@@ -8,55 +8,48 @@ PYTHON-IA, Score de cliente em um banco. tem uma base de dados de 100.000 client
 objetivo: fazer um tratamento na base de dados e criar alguns algoritmos de classificação e verificar qual deles é o melhor. Com isso nós vamos conseguir fazer uma previsão dos clientes para saber se ele vai ser um cliente com um bom score ou não.
 ### Esse já é um projeto mais voltado para análise de dados.
 Lembrando que nunca vamos conseguir ter um modelo com 100% de acerto.
-### IA ( Inteligência artificial) com 80% de acertos.
 
+# Os passo que vamos fazer são:
+• Importar a base de dados
+• Verificar informações vazias
+• Fazer o tratamento na base de dados
+• Selecionar as colunas de treino para o modelo
+• Treinar 2 modelos
+• Verificar o melhor modelo
+• Verificar quais as características mais importantes para definir o score do cliente
+
+### IA ( Inteligência artificial) com 80% de acertos.
 ```bash
 ### Minha opnião:
 Pontuação aceitável.
-
+IA - RandomForestClassifier - vencedora
 ```
+# OBS:
+```bash
+Toda IA precisa de tratamento para trabalhar com texto em algum ponto ira virar número.
+```
+## Fonte de banco de dados pública para fazer projetos
 
-## Importação da tabela
+https://www.kaggle.com/
 
-### importação da tabela, visualização da mesma, assim podemos estudar  detalhamente as informações necessarias.
-
-![1](https://github.com/Macaulylimacode/PYTHON-INSIGHTS1/assets/139823222/655a8cc9-411a-4476-a7a3-bf1a0ce075bf)
-
-
-## Separação
-
-### separação das informações que de fato necessitamos para analise.
-
-![2](https://github.com/Macaulylimacode/PYTHON-INSIGHTS1/assets/139823222/715c737f-72bc-4e0c-b967-2459e425afbe)
-
-
-## Analise aprofundada
-
-### analise aprofundada para que seja realizada a conclusão e possa sair um resultado satisfatório.
-
-![3](https://github.com/Macaulylimacode/PYTHON-INSIGHTS1/assets/139823222/b07cda3b-ad78-4b71-8c48-b143798d9507)
-
-
-## Gráfico interativo com resultado
-
-![4](https://github.com/Macaulylimacode/PYTHON-INSIGHTS1/assets/139823222/849cfe89-7e3f-40e6-a88e-e90ecfc027e8)
-![5](https://github.com/Macaulylimacode/PYTHON-INSIGHTS1/assets/139823222/008bd2a8-c38c-4644-af8c-fd861de316c1)
-
-## Resultado final
-
-![6](https://github.com/Macaulylimacode/PYTHON-INSIGHTS1/assets/139823222/345c89f4-8421-464d-9684-222e68862c0c)
-
-
+## Saída do Projeto
+![1](https://github.com/Macaulylimacode/PYTHON-IA/assets/139823222/76c9e75d-ac35-4348-9d70-cad467d870f4)
+![2](https://github.com/Macaulylimacode/PYTHON-IA/assets/139823222/bbcfba02-0cbe-4a67-9f49-10f99005c3b8)
 
 # Tecnologias utilizadas
 ## Linguagem
 - Python
 ## Bibliotecas
-- plotly
+- sklearn
 - pandas
+## Codificador
+- LabelEncoder 
 ## Implantação em produção
 - jupyter
 - pycharm
+## IA importada
+- RandomForestClassifier > 80% de acerto
+- KNeighborsClassifier >= 70% de acerto
 
 # Como executar o projeto
 
