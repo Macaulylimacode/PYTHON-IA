@@ -38,15 +38,18 @@ https://www.kaggle.com/
 
 # Tecnologias utilizadas
 ## Linguagem
-- Python
+
+![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
 ## Bibliotecas
 - sklearn
 - pandas
 ## Codificador
 - LabelEncoder 
-## Implantação em produção
-- jupyter
-- pycharm
+## IDE
+
+![pycharm](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white)
+![visual](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ## IA importada
 - RandomForestClassifier > 80% de acerto
 - KNeighborsClassifier >= 70% de acerto
