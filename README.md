@@ -4,7 +4,7 @@
 
 ## Sobre o projeto
 
-PYTHON-IA, Score de cliente em um banco. tem uma base de dados de 100.000 clientes e precisa verificar o score (pontuação) do cliente para saber se é um bom cliente ou não. está analise vai definir se o banco vai emprestar dinheiro, se ele vai ter crédito entre outros benefícios dentro do banco.
+PYTHON-IA, Score de cliente em um banco. tem uma base de dados de cem mil clientes e precisa verificar o score (pontuação) do cliente para saber se é um bom cliente ou não. vai definir se o banco vai emprestar dinheiro, se ele vai ter crédito entre outros benefícios dentro do banco.
 objetivo: fazer um tratamento na base de dados e criar alguns algoritmos de classificação e verificar qual deles é o melhor. Com isso nós vamos conseguir fazer uma previsão dos clientes para saber se ele vai ser um cliente com um bom score ou não.
 ### Esse já é um projeto mais voltado para análise de dados.
 Lembrando que nunca vamos conseguir ter um modelo com 100% de acerto.
